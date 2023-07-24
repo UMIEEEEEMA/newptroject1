@@ -1,0 +1,65 @@
+/* styles.css */
+
+/* styling for body */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+    color: white;
+  }
+  
+  header {
+    padding: 20px;
+  }
+
+  /* styling for containers */
+
+  .container {
+    padding: 40px 40px;
+    background-color: #343a40;
+    border-radius: 5px;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+  }
+
+  /* styling for navbar */
+
+  .navbar {
+    margin-bottom: 30px;
+  }
+
+/* styling for projects section */
+
+  .card-body{
+    color: black;
+  }
+
+  /* styling for contact section */
+
+  .table {
+    margin-bottom: 30px;
+    color: white;
+  }
+
+  /* styling for footer */
+
+  footer {
+    background-color: #f8f9fa;
+    padding: 20px;
+    color: black;
+  }
+/* styling for smaller screens */
+  @media (max-width: 767px) {
+    header {
+      text-align: center;
+    }
+  
+    .navbar-collapse {
+      margin-top: 20px;
+    }
+  }
+  
